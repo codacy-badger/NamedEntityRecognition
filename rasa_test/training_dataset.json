@@ -1,0 +1,1707 @@
+{
+	"rasa_nlu_data": {
+		"regex_features": [],
+		"entity_synonyms": [],
+		"common_examples": [{
+			"text": "where to eat in the area of san francisco",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 41,
+				"entity": "city",
+				"start": 28,
+				"value": "san francisco"
+			}]
+		}, {
+			"text": "hello i'm looking for places to eat in the area of san francisco city thank you",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 64,
+				"entity": "city",
+				"start": 51,
+				"value": "san francisco"
+			}]
+		}, {
+			"text": "places to eat in the area of san francisco",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 42,
+				"entity": "city",
+				"start": 29,
+				"value": "san francisco"
+			}]
+		}, {
+			"text": "hey pls where to eat near san francisco city thank you",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 39,
+				"entity": "city",
+				"start": 26,
+				"value": "san francisco"
+			}]
+		}, {
+			"text": "please find places to eat near atlanta thank you",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 38,
+				"entity": "city",
+				"start": 31,
+				"value": "atlanta"
+			}]
+		}, {
+			"text": "where to eat in the area of atlanta",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 35,
+				"entity": "city",
+				"start": 28,
+				"value": "atlanta"
+			}]
+		}, {
+			"text": "i'm looking for restaurants in the area of atlanta city thank you",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 50,
+				"entity": "city",
+				"start": 43,
+				"value": "atlanta"
+			}]
+		}, {
+			"text": "hello pls places to eat in the area of new york",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 47,
+				"entity": "city",
+				"start": 39,
+				"value": "new york"
+			}]
+		}, {
+			"text": "hi help me find places to eat in the area of atlanta thanks",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 52,
+				"entity": "city",
+				"start": 45,
+				"value": "atlanta"
+			}]
+		}, {
+			"text": "please i'm looking for restaurants located at san francisco thank you",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 59,
+				"entity": "city",
+				"start": 46,
+				"value": "san francisco"
+			}]
+		}, {
+			"text": "hey pls find places to eat near san francisco city",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 45,
+				"entity": "city",
+				"start": 32,
+				"value": "san francisco"
+			}]
+		}, {
+			"text": "hi pls find places to eat near san francisco thanks",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 44,
+				"entity": "city",
+				"start": 31,
+				"value": "san francisco"
+			}]
+		}, {
+			"text": "hey please places to eat in the area of san francisco city thanks",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 53,
+				"entity": "city",
+				"start": 40,
+				"value": "san francisco"
+			}]
+		}, {
+			"text": "restaurants in the area of atlanta",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 34,
+				"entity": "city",
+				"start": 27,
+				"value": "atlanta"
+			}]
+		}, {
+			"text": "restaurants located at new york",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 31,
+				"entity": "city",
+				"start": 23,
+				"value": "new york"
+			}]
+		}, {
+			"text": "hello plz help me find where to eat in the area of san francisco city thank you",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 64,
+				"entity": "city",
+				"start": 51,
+				"value": "san francisco"
+			}]
+		}, {
+			"text": "hi pls restaurants located at new york thank you",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 38,
+				"entity": "city",
+				"start": 30,
+				"value": "new york"
+			}]
+		}, {
+			"text": "pls help me find where to eat near san francisco thank you",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 48,
+				"entity": "city",
+				"start": 35,
+				"value": "san francisco"
+			}]
+		}, {
+			"text": "hi please restaurants near atlanta city thanks",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 34,
+				"entity": "city",
+				"start": 27,
+				"value": "atlanta"
+			}]
+		}, {
+			"text": "hey please help me find where to eat in the area of atlanta city thank you",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 59,
+				"entity": "city",
+				"start": 52,
+				"value": "atlanta"
+			}]
+		}, {
+			"text": "hey please find where to eat near atlanta",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 41,
+				"entity": "city",
+				"start": 34,
+				"value": "atlanta"
+			}]
+		}, {
+			"text": "hey plz restaurants located at atlanta city thank you",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 38,
+				"entity": "city",
+				"start": 31,
+				"value": "atlanta"
+			}]
+		}, {
+			"text": "hello i'm looking for where to eat located at san francisco city thanks",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 59,
+				"entity": "city",
+				"start": 46,
+				"value": "san francisco"
+			}]
+		}, {
+			"text": "hi plz find restaurants in the area of san francisco city thank you",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 52,
+				"entity": "city",
+				"start": 39,
+				"value": "san francisco"
+			}]
+		}, {
+			"text": "restaurants in the area of new york",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 35,
+				"entity": "city",
+				"start": 27,
+				"value": "new york"
+			}]
+		}, {
+			"text": "hey please help me find places to eat near atlanta thank you",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 50,
+				"entity": "city",
+				"start": 43,
+				"value": "atlanta"
+			}]
+		}, {
+			"text": "places to eat near san francisco",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 32,
+				"entity": "city",
+				"start": 19,
+				"value": "san francisco"
+			}]
+		}, {
+			"text": "hello i'm looking for where to eat in the area of atlanta",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 57,
+				"entity": "city",
+				"start": 50,
+				"value": "atlanta"
+			}]
+		}, {
+			"text": "please find where to eat in the area of san francisco city",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 53,
+				"entity": "city",
+				"start": 40,
+				"value": "san francisco"
+			}]
+		}, {
+			"text": "places to eat in the area of atlanta",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 36,
+				"entity": "city",
+				"start": 29,
+				"value": "atlanta"
+			}]
+		}, {
+			"text": "where to eat near new york",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 26,
+				"entity": "city",
+				"start": 18,
+				"value": "new york"
+			}]
+		}, {
+			"text": "pls find places to eat in the area of new york city",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 46,
+				"entity": "city",
+				"start": 38,
+				"value": "new york"
+			}]
+		}, {
+			"text": "hey plz find restaurants near new york thanks",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 38,
+				"entity": "city",
+				"start": 30,
+				"value": "new york"
+			}]
+		}, {
+			"text": "hello help me find restaurants located at atlanta city thanks",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 49,
+				"entity": "city",
+				"start": 42,
+				"value": "atlanta"
+			}]
+		}, {
+			"text": "pls help me find where to eat located at san francisco city thanks",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 54,
+				"entity": "city",
+				"start": 41,
+				"value": "san francisco"
+			}]
+		}, {
+			"text": "where to eat in the area of new york",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 36,
+				"entity": "city",
+				"start": 28,
+				"value": "new york"
+			}]
+		}, {
+			"text": "places to eat located at san francisco",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 38,
+				"entity": "city",
+				"start": 25,
+				"value": "san francisco"
+			}]
+		}, {
+			"text": "where to eat near atlanta",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 25,
+				"entity": "city",
+				"start": 18,
+				"value": "atlanta"
+			}]
+		}, {
+			"text": "hi pls i'm looking for restaurants located at san francisco thank you",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 59,
+				"entity": "city",
+				"start": 46,
+				"value": "san francisco"
+			}]
+		}, {
+			"text": "hi pls find places to eat located at san francisco thanks",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 50,
+				"entity": "city",
+				"start": 37,
+				"value": "san francisco"
+			}]
+		}, {
+			"text": "hello plz i'm looking for places to eat in the area of san francisco",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 68,
+				"entity": "city",
+				"start": 55,
+				"value": "san francisco"
+			}]
+		}, {
+			"text": "please help me find where to eat located at atlanta thanks",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 51,
+				"entity": "city",
+				"start": 44,
+				"value": "atlanta"
+			}]
+		}, {
+			"text": "hey where to eat in the area of new york city thanks",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 40,
+				"entity": "city",
+				"start": 32,
+				"value": "new york"
+			}]
+		}, {
+			"text": "hey please i'm looking for where to eat in the area of san francisco city thanks",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 68,
+				"entity": "city",
+				"start": 55,
+				"value": "san francisco"
+			}]
+		}, {
+			"text": "hello please help me find places to eat near san francisco",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 58,
+				"entity": "city",
+				"start": 45,
+				"value": "san francisco"
+			}]
+		}, {
+			"text": "hey i'm looking for places to eat in the area of new york",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 57,
+				"entity": "city",
+				"start": 49,
+				"value": "new york"
+			}]
+		}, {
+			"text": "hi find restaurants in the area of new york thanks",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 43,
+				"entity": "city",
+				"start": 35,
+				"value": "new york"
+			}]
+		}, {
+			"text": "hi plz places to eat located at san francisco thank you",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 45,
+				"entity": "city",
+				"start": 32,
+				"value": "san francisco"
+			}]
+		}, {
+			"text": "pls restaurants in the area of san francisco thanks",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 44,
+				"entity": "city",
+				"start": 31,
+				"value": "san francisco"
+			}]
+		}, {
+			"text": "please places to eat in the area of atlanta thank you",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 43,
+				"entity": "city",
+				"start": 36,
+				"value": "atlanta"
+			}]
+		}, {
+			"text": "places to eat near new york",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 27,
+				"entity": "city",
+				"start": 19,
+				"value": "new york"
+			}]
+		}, {
+			"text": "hey pls i'm looking for places to eat in the area of san francisco city",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 66,
+				"entity": "city",
+				"start": 53,
+				"value": "san francisco"
+			}]
+		}, {
+			"text": "hey find restaurants in the area of new york thanks",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 44,
+				"entity": "city",
+				"start": 36,
+				"value": "new york"
+			}]
+		}, {
+			"text": "hello please restaurants near new york thank you",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 38,
+				"entity": "city",
+				"start": 30,
+				"value": "new york"
+			}]
+		}, {
+			"text": "hello i'm looking for places to eat near new york",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 49,
+				"entity": "city",
+				"start": 41,
+				"value": "new york"
+			}]
+		}, {
+			"text": "hi plz find places to eat located at atlanta",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 44,
+				"entity": "city",
+				"start": 37,
+				"value": "atlanta"
+			}]
+		}, {
+			"text": "please where to eat located at new york city thanks",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 39,
+				"entity": "city",
+				"start": 31,
+				"value": "new york"
+			}]
+		}, {
+			"text": "hello i'm looking for places to eat in the area of new york",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 59,
+				"entity": "city",
+				"start": 51,
+				"value": "new york"
+			}]
+		}, {
+			"text": "pls i'm looking for where to eat in the area of atlanta thank you",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 55,
+				"entity": "city",
+				"start": 48,
+				"value": "atlanta"
+			}]
+		}, {
+			"text": "hello plz i'm looking for where to eat in the area of san francisco city",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 67,
+				"entity": "city",
+				"start": 54,
+				"value": "san francisco"
+			}]
+		}, {
+			"text": "places to eat near atlanta",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 26,
+				"entity": "city",
+				"start": 19,
+				"value": "atlanta"
+			}]
+		}, {
+			"text": "plz i'm looking for places to eat located at san francisco",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 58,
+				"entity": "city",
+				"start": 45,
+				"value": "san francisco"
+			}]
+		}, {
+			"text": "places to eat located at new york",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 33,
+				"entity": "city",
+				"start": 25,
+				"value": "new york"
+			}]
+		}, {
+			"text": "hi find places to eat located at atlanta city thanks",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 40,
+				"entity": "city",
+				"start": 33,
+				"value": "atlanta"
+			}]
+		}, {
+			"text": "hi pls help me find places to eat near new york city thanks",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 47,
+				"entity": "city",
+				"start": 39,
+				"value": "new york"
+			}]
+		}, {
+			"text": "plz i'm looking for restaurants located at atlanta thanks",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 50,
+				"entity": "city",
+				"start": 43,
+				"value": "atlanta"
+			}]
+		}, {
+			"text": "hey plz restaurants located at new york",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 39,
+				"entity": "city",
+				"start": 31,
+				"value": "new york"
+			}]
+		}, {
+			"text": "hey plz help me find restaurants in the area of atlanta city",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 55,
+				"entity": "city",
+				"start": 48,
+				"value": "atlanta"
+			}]
+		}, {
+			"text": "hey plz i'm looking for restaurants in the area of new york city thank you",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 59,
+				"entity": "city",
+				"start": 51,
+				"value": "new york"
+			}]
+		}, {
+			"text": "hey i'm looking for restaurants in the area of atlanta city",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 54,
+				"entity": "city",
+				"start": 47,
+				"value": "atlanta"
+			}]
+		}, {
+			"text": "hello please where to eat near san francisco city",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 44,
+				"entity": "city",
+				"start": 31,
+				"value": "san francisco"
+			}]
+		}, {
+			"text": "hi plz find where to eat in the area of new york",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 48,
+				"entity": "city",
+				"start": 40,
+				"value": "new york"
+			}]
+		}, {
+			"text": "hi pls find places to eat near atlanta city thank you",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 38,
+				"entity": "city",
+				"start": 31,
+				"value": "atlanta"
+			}]
+		}, {
+			"text": "hello places to eat located at atlanta city",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 38,
+				"entity": "city",
+				"start": 31,
+				"value": "atlanta"
+			}]
+		}, {
+			"text": "hi pls places to eat near san francisco city",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 39,
+				"entity": "city",
+				"start": 26,
+				"value": "san francisco"
+			}]
+		}, {
+			"text": "hi pls i'm looking for where to eat located at san francisco city",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 60,
+				"entity": "city",
+				"start": 47,
+				"value": "san francisco"
+			}]
+		}, {
+			"text": "hey please places to eat near new york city thank you",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 38,
+				"entity": "city",
+				"start": 30,
+				"value": "new york"
+			}]
+		}, {
+			"text": "hi plz i'm looking for restaurants near san francisco",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 53,
+				"entity": "city",
+				"start": 40,
+				"value": "san francisco"
+			}]
+		}, {
+			"text": "hello find where to eat located at san francisco",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 48,
+				"entity": "city",
+				"start": 35,
+				"value": "san francisco"
+			}]
+		}, {
+			"text": "pls find where to eat located at san francisco",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 46,
+				"entity": "city",
+				"start": 33,
+				"value": "san francisco"
+			}]
+		}, {
+			"text": "restaurants located at atlanta",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 30,
+				"entity": "city",
+				"start": 23,
+				"value": "atlanta"
+			}]
+		}, {
+			"text": "hello i'm looking for where to eat located at san francisco",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 59,
+				"entity": "city",
+				"start": 46,
+				"value": "san francisco"
+			}]
+		}, {
+			"text": "please help me find where to eat located at san francisco city thanks",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 57,
+				"entity": "city",
+				"start": 44,
+				"value": "san francisco"
+			}]
+		}, {
+			"text": "hello please find where to eat near new york city",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 44,
+				"entity": "city",
+				"start": 36,
+				"value": "new york"
+			}]
+		}, {
+			"text": "please help me find restaurants near san francisco city thank you",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 50,
+				"entity": "city",
+				"start": 37,
+				"value": "san francisco"
+			}]
+		}, {
+			"text": "hey please i'm looking for where to eat located at new york thank you",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 59,
+				"entity": "city",
+				"start": 51,
+				"value": "new york"
+			}]
+		}, {
+			"text": "hey please find restaurants near san francisco city",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 46,
+				"entity": "city",
+				"start": 33,
+				"value": "san francisco"
+			}]
+		}, {
+			"text": "hey plz find restaurants near san francisco",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 43,
+				"entity": "city",
+				"start": 30,
+				"value": "san francisco"
+			}]
+		}, {
+			"text": "hey please i'm looking for places to eat in the area of atlanta city thanks",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 63,
+				"entity": "city",
+				"start": 56,
+				"value": "atlanta"
+			}]
+		}, {
+			"text": "hello plz restaurants near atlanta city thank you",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 34,
+				"entity": "city",
+				"start": 27,
+				"value": "atlanta"
+			}]
+		}, {
+			"text": "plz restaurants located at new york thanks",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 35,
+				"entity": "city",
+				"start": 27,
+				"value": "new york"
+			}]
+		}, {
+			"text": "hi plz find restaurants located at atlanta thank you",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 42,
+				"entity": "city",
+				"start": 35,
+				"value": "atlanta"
+			}]
+		}, {
+			"text": "help me find places to eat located at san francisco city thank you",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 51,
+				"entity": "city",
+				"start": 38,
+				"value": "san francisco"
+			}]
+		}, {
+			"text": "hello plz where to eat in the area of new york thank you",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 46,
+				"entity": "city",
+				"start": 38,
+				"value": "new york"
+			}]
+		}, {
+			"text": "hey pls help me find places to eat near new york city thank you",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 48,
+				"entity": "city",
+				"start": 40,
+				"value": "new york"
+			}]
+		}, {
+			"text": "hello please help me find places to eat in the area of new york",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 63,
+				"entity": "city",
+				"start": 55,
+				"value": "new york"
+			}]
+		}, {
+			"text": "hi pls places to eat located at san francisco city thanks",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 45,
+				"entity": "city",
+				"start": 32,
+				"value": "san francisco"
+			}]
+		}, {
+			"text": "hello pls help me find restaurants in the area of new york",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 58,
+				"entity": "city",
+				"start": 50,
+				"value": "new york"
+			}]
+		}, {
+			"text": "hello pls i'm looking for where to eat in the area of atlanta city thank you",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 61,
+				"entity": "city",
+				"start": 54,
+				"value": "atlanta"
+			}]
+		}, {
+			"text": "plz find where to eat in the area of san francisco thank you",
+			"intent": "findRestaurantsByCity",
+			"entities": [{
+				"end": 50,
+				"entity": "city",
+				"start": 37,
+				"value": "san francisco"
+			}]
+		}, {
+			"text": "good morning",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "hey good day are you around",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "good afternoon sup",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "greetings whatsup",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "hello",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "greetings",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "hi",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "hi good day whatsup",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "hey morning how are things going",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "hey greetings whats up",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "hello good morning are you around",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "hello how are things going",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "hi good day are you there",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "hey good morning how are you",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "hey greetings how are you doing",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "hey good morning how is it going",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "hi good night how are you",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "hello greetings whats up",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "hello morning are you there",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "good night whats up",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "hey sup",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "hey how are you doing",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "hey are you around",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "hey morning",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "hey good day how are you",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "hey how is it going",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "greetings how are things going",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "hello greetings are you around",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "hello good afternoon how are things going",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "hey good day how are things going",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "greetings how are you doing",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "hi morning how are you",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "good day are you around",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "hey good afternoon",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "hello good morning sup",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "good day whatsup",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "hey good morning are you around",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "hello good afternoon whats up",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "hey greetings how are you",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "hi morning how is it going",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "good afternoon are you around?",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "hey good afternoon how are things going",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "hi good night are you around",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "hey greetings how are things going",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "hello are you around",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "hello greetings how are you",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "morning",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "hi good day",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "hello good afternoon how are you doing",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "hey good night are you around?",
+			"intent": "greet",
+			"entities": []
+		}, {
+			"text": "goodbye",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "thank you adieu",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "im leaving now chau",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "going out",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "thank you goodbye",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "chau",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "chao thank you",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "talk to you soon",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "im leaving now chao",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "adios",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "adieu thank you",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "goodbye thank you",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "talk to you soon chau",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "chao thanks",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "have to go ttyl",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "talk to you later farewell",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "farewell",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "gtg",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "adieu",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "got to go farewell",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "im leaving now",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "talk to you later gtg",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "ttyl",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "bye thank you",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "going out chau",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "heading out",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "leaving chao",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "im leaving now farewell",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "leaving farewell",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "thanks gtg",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "chau thank you",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "going out adios",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "thank you farewell",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "going out chao",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "im leaving now goodbye",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "going out ttyl",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "im leaving now bye",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "got to go chao",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "leaving ttyl",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "have to go gtg",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "talk to you later chau",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "chau thanks",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "talk to you soon chao",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "thanks ttyl",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "adios thanks",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "farewell thanks",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "thank you adios",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "heading out farewell",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "going out adieu",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "adios thank you",
+			"intent": "bye",
+			"entities": []
+		}, {
+			"text": "agreed that is fine right",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "yes sir good right",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "right you understood me yep",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "right",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "affirmative sounds good thank you",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "right that is correct im ok with that",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "yes sir",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "affirmative i want that yes",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "agreed that is good affirmative",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "agreed that is fine yes sir",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "yes",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "right yep",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "affirmative its fine affirmative",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "that is right yes sir",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "correct good affirmative",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "im ok with that i want that im ok with that",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "im ok with that that is fine yes",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "yes thank you",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "agreed its fine yes sir",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "sounds good",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "yep good sounds good",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "sounds good that is good yes sir",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "sounds good that is fine yep",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "agreed i want that agreed",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "yes sir that is fine yep",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "yes i want that correct",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "im ok with that that is fine correct",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "im ok with that that is what i want sounds good",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "yes sir thank you",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "im ok with that good yep",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "sounds good its fine im ok with that",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "sounds good yep thanks",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "agreed that is what i want affirmative",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "im ok with that that is correct agreed",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "affirmative that is what i want",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "yep good yes sir",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "correct that is what i want im ok with that",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "right that is fine yes sir",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "agreed you understood me yep",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "affirmative",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "yes sir that is correct correct",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "sounds good i want that correct",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "affirmative sounds good thanks",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "that is what i want affirmative",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "correct good im ok with that",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "sounds good that is right agreed",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "im ok with that that is correct right",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "im ok with that good im ok with that",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "correct that is right im ok with that",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "you understood me yes sir",
+			"intent": "affirmative",
+			"entities": []
+		}, {
+			"text": "plz incorrect dont mean that",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "not really",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "incorrect",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "plz no i don't want that",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "please nope its not ok",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "don't do that",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "nope",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "plz not really didnt meant that",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "that's not right pls that is wrong",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "that's not what i want",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "nope pls that's wrong",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "not really pls",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "that is wrong",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "nope please that's not what i want",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "not really it's not good",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "it's not good",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "please don't do that that is wrong",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "plz don't do that its not ok",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "no didnt meant that",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "no please its not ok",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "that's not right that is wrong",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "incorrect please its not ok",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "not really plz that is wrong",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "incorrect pls that is wrong",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "nope plz it's not good",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "that's not right",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "nope that is wrong",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "that's not correct",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "incorrect plz that's not correct",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "dont mean that",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "no pls its not ok",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "no please dont mean that",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "don't do that plz that is wrong",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "no pls i don't want that",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "pls incorrect it's not good",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "that's not right please that's wrong",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "that's not right plz that's not correct",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "pls no that's not what i want",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "don't do that pls that's not what i want",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "that's not right plz that is wrong",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "that's not right dont mean that",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "nope i don't want that",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "pls that's not right its not ok",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "pls incorrect that's wrong",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "no its not correct",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "no please it's not good",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "i don't want that",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "not really plz didnt meant that",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "please incorrect i don't want that",
+			"intent": "negative",
+			"entities": []
+		}, {
+			"text": "please don't do that dont mean that",
+			"intent": "negative",
+			"entities": []
+		}]
+	}
+}

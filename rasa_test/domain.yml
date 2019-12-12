@@ -1,0 +1,64 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - affirmative
+  - bye
+  - findRestaurantsByCity
+  - negative
+  - name_recognition
+  - repeat_name
+  - provide_name
+
+entities:
+- name
+- bot_name
+
+slots:
+  name:
+    type: text
+
+actions:
+- utter_greet
+- utter_cheer_up
+- utter_did_that_help
+- utter_happy
+- utter_goodbye
+- utter_iamabot
+- utter_affirm
+- utter_name
+- utter_repeat
+- action_greet
+
+templates:
+  utter_greet:
+  - text: "Hey, I'm {bot_name}!"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_affirm:
+  - text: "What can I do for you, {name}?"
+
+  utter_name:
+  - text: "Can I know your name?"
+
+  utter_repeat:
+  - text: "Great {name}"
